@@ -1,4 +1,4 @@
-[/**
+/**
  * 📚 Maple Town Library
  *
  * The librarian at Maple Town Public Library is tired of manually checking
@@ -32,6 +32,7 @@
  * @param {number} overdueBooks - Number of overdue books
  * @returns {{ allowed: boolean, message: string }}
  */
+
 export function canBorrowBook(memberAge, hasValidCard, overdueBooks) {
   if (memberAge < 6) {
     return {
